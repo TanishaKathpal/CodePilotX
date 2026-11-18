@@ -1,0 +1,3 @@
+-r requirements.txt
+httpx>=0.27             # needed by fastapi.testclient for the API tests
+pytest>=8.0             # optional: the test suite is plain unittest and also runs under pytest

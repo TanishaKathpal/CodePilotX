@@ -1,0 +1,9 @@
+# Runtime dependencies (lower bounds only; I could not install/pin versions in my build environment)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+requests>=2.31
+numpy>=1.26
+python-dotenv>=1.0
+langgraph>=0.2          # optional: if missing, the same workflow runs in a plain loop (set USE_LANGGRAPH=false to force)
+# Optional neural embeddings (large download): pip install sentence-transformers
